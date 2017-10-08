@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        <?php
+        
 
 // clase base con propiedades y métodos miembro
 class Verdura {
@@ -41,7 +41,7 @@ class Espinaca extends Verdura {
 
 	   function Espinaca()
 	   {
-	       $this->Verdura(true, "verde");
+	       $this->Verdura(true, "marron");
 	   }
 	   function cocinarla()
 	   {
@@ -55,6 +55,6 @@ class Espinaca extends Verdura {
 } // fin de la clase Espinaca
 
 ?>
-        ?>
+        
     </body>
 </html>
