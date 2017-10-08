@@ -18,7 +18,7 @@ class Verdura {
 
    var $comestible;
    var $color;
-	   function Verdura($comestible, $color="verde")
+	   function Verdura($comestible, $color="amarillo")
 	   {
 	       $this->comestible = $comestible;
 	       $this->color = $color;
