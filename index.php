@@ -18,9 +18,10 @@ class Verdura {
 
    var $comestible;
    var $color;
+   var $alumne;
 	   function Verdura($comestible, $color="amarillo")
 	   {
-	       $this->comestible = $comestible;
+	       $this->color = $alumne;
 	       $this->color = $color;
 	   }
 	   function es_comestible()
