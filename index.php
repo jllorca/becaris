@@ -45,7 +45,7 @@ class Espinaca extends Verdura {
 	   }
 	   function cocinarla()
 	   {
-	       $this->concinada = true;
+	       $this->concinada = false;
 	   }
 	   function está_cocinada()
 	   {
